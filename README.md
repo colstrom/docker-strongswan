@@ -2,6 +2,13 @@
 
 Base docker image to run a Strongswan IPsec and a XL2TPD server.
 
+## Build Docker Image
+
+Run the following to build a images:
+```
+docker build -t strongswan .
+```
+
 ## Usage
 
 Run the following to start the container:
